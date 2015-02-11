@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="description" content="Practica2" />
+        <meta name="keywords" content="HTML5,CSS3,JavaScript" />
+        <title>Practica2</title>
+    </head>
+    <body>
+         <div>
+             <form action="datos.html" method="POST">
+                 <fieldset>
+                 <legend>Personal</legend>
+                     <label for="txtNombre">Nombre</label><br/>
+                     <input type="text" size="40" maxlength="255" id="txtNombre" name="nombre"  />
+                     <br/>
+                     <br/>
+                     <label for="txtApaterno">Apellido Paterno</label><br/>
+                     <input type="text" size="40" maxlength="255" id="txtApaterno" name="Apellido Paterno"  />
+                     <br/>
+                     <br/>
+					 <label for="txtAmaterno">Apellido Materno</label><br/>
+                     <input type="text" size="40" maxlength="255" id="txtAmaterno" name="Apellido Materno"  />
+                     <br/>
+                     <br/>
+		
+                 </fieldset>
+				  <fieldset>
+                 <legend>Contacto</legend>
+                     <label for="txtDomicilio">Domicilio</label><br/>
+                     <input type="text" size="40" maxlength="255" id="txtDomicilio" name="Domicilio"  />
+                     <br/>
+                     <br/>
+                     <label for="txtColonia">Colonia</label><br/>
+                     <input type="text" size="40" maxlength="255" id="txtColonia" name="Colonia"  />
+                     <br/>
+                     <br/>
+					 <label for="txtCodigoPOstal">Codigo Postal</label><br/>
+                     <input type="text" size="40" maxlength="255" id="txtAmaterno" name="C&oacutedigo Postal"  />
+                     <br/>
+                     <br/>
+					 
+					  <label for="txtEstado">Estado</label><br/>
+					  <select id="Estado" name="Estado"><br/>
+                        <option value="-1"></option>
+                        <option value="AguasCalientes">AguasCalientes</option>
+                        <option value="BajaCalifornia">BajaCalifornia</option>
+                        <option value="Campeche">Campeche</option>
+                        <option value="Chiapas">Chiapas</option>
+						<option value="Chihuahua">Chihuahua</option>
+                        <option value="Coahuila">Coahuila</option>
+                        <option value="Colima">Colima</option>
+                        <option value="Distrito">Distrito Federal</option>
+                        <option value="Durango">Durango</option>
+						<option value="Estado">Estado de M&eacutexico</option>
+						<option value="Guanajuato">Guanajuato</option>  
+						<option value="Guerrero">Guerrero</option>  
+						<option value="Hidalgo">Hidalgo</option> 
+						<option value="Jalisco"selected="selected">Jalisco</option> 
+						<option value="Michoacan">Michoac&aacuten</option> 
+						<option value="Morelos">Morelos</option> 
+						<option value="Nayarit">Nayarit</option> 
+						<option value="Nuevo">Nuevo Le&oacuten</option> 
+						<option value="Oaxaca">Oaxaca</option> 
+						<option value="Puebla">Puebla</option> 
+						<option value="Queretaro">Queretaro</option> 
+						<option value="Quintana">Quintana Roo</option> 
+						<option value="SanLuis">San Luis Potos&iacute</option> 
+						<option value="Sinaloa">Sinaloa</option> 
+						<option value="Sonora">Sonora</option> 
+						<option value="Tabasco">Tabasco</option> 
+						<option value="Tamaulipas">Tamaulipas</option> 
+						<option value="Tlaxcala">Tlaxcala</option> 
+						<option value="Veracruz">Veracruz</option> 
+						<option value="Yucatan">Yucat&aacuten</option> 
+						<option value="Zacatecas">Zacatecas</option> 
+                    </select>
+				  </fieldset>
+				 
+				  <fieldset>
+                 <legend>Otros</legend>
+				  <input type="radio" id="Femenino" name="Sexo" value="1"> 
+                     <label for="Femenino">Femenino</label><br/>
+                      <input type="radio" id="Masculino" name="Sexo" value="2" checked="checked"> 
+                     <label for="Masculino">Masculino</label><br/> 
+                    <br/>
+                    <br/>
+					<label for="txtIdiomas">Idiomas</label><br/>
+					 <input type="checkbox" id="txtEspañol" name="Español" value="1"> 
+                     <label for="Español">Espanol </label><br/>
+                      <input type="checkbox" id="Franc&eacutes" name="Franc&eacutes" value="2" checked="checked"> 
+                     <label for="Franc&eacutes">Franc&eacutes</label><br/>
+                      <input type="checkbox" id="Aleman" name="Aleman" value="3"> 
+                     <label for="Aleman">Alem&aacute;n </label><br/>
+					 <input type="checkbox" id="Ingl&eacutes" name="Ingles" value="3"> 
+                     <label for="Ingles">Ingl&eacute;s </label><br/>
+					
+				  </fieldset>
+				 
+                 <input type="submit" name="enviar" value="Guardar" />
+             </form>
+         </div>
+    </body>
+</html>
